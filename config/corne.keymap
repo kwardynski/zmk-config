@@ -34,15 +34,15 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL  |
-// | SHFT |     |     |     |     |     |   |     | LFT | DNW | UP  | RGT | HOME |
-// | CTRL |     |     |     |     |     |   |     |     |     |     |     | END  |
-//                    | GUI |TRNS | ENT |   | SPC | RSE | ALT |
+// |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
+// | SHFT |     |     |     |     |     |   |     |LEFT |DOWN | UP  |RIGHT|HOME |
+// | CTRL |     |     |     |     |     |   |     |     |     |     |     | END |
+//                    | GUI |     | ENT |   | SPC |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1   &kp N2   &kp N3    &kp N4   &kp N5     &kp N6     &kp N7   &kp N8   &kp N9  &kp N0    &kp DEL
-   &bt LSHFT  &trans   &trans   &trans    &trans   &trans     &trans     &kp LEFT &kp DOWN &kp UP  &kp RIGHT &kp HOME
-   &kp LCTRL  &trans   &trans   &trans    &trans   &trans     &trans     &trans   &trans   &trans  &trans    &kp END
-                                &kp LGUI  &trans   &kp RET    &kp SPACE  &mo 2   &kp RALT
+   &kp TAB    &kp N1  &kp N2  &kp N3    &kp N4  &kp N5     &kp N6     &kp N7   &kp N8    &kp N9  &kp N0    &kp DEL
+   &bt LSHFT  &trans  &trans  &trans    &trans  &trans     &trans     &kp LEFT &kp DOWN  &kp UP  &kp RIGHT &kp HOME
+   &kp LCTRL  &trans  &trans  &trans    &trans  &trans     &trans     &trans   &trans    &trans  &trans    &kp END
+                              &kp LGUI  &trans  &kp RET    &kp SPACE  &trans   &kp RALT
                         >;
                 };
 
