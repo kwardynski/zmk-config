@@ -62,12 +62,12 @@
 
                 mod_layer {
 // -----------------------------------------------------------------------------------------
-// |      |     |     |     |     |     |   |prev |play |next |vol+ |vol- |mute  |
+// |      |     |     |     |     |     |   |prev |play |next |vol- |vol+ |mute  |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 // |BT_CLR| BT1 |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | ENT |   | SPC | ALT |     |
                         bindings = <
-   &trans      &trans        &trans   &trans    &trans   &trans       &kp C_PREV  &kp C_PLAY  &kp C_NEXT  &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE
+   &trans      &trans        &trans   &trans    &trans   &trans       &kp C_PREV  &kp C_PLAY  &kp C_NEXT  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_MUTE
    &trans      &trans        &trans   &trans    &trans   &trans       &trans      &trans      &trans      &trans        &trans        &trans
    &bt BT_CLR  &bt BT_SEL 1  &trans   &trans    &trans   &trans       &trans      &trans      &trans      &trans        &trans        &trans
                                       &kp LGUI  &trans   &kp RET      &kp SPACE   &trans      &kp RALT
